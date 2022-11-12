@@ -16,7 +16,6 @@ spring:
       discovery:
         locator:
           enabled: true
-          lower-case-service-id: true
       routes:
         - id: empleado-service
           uri: localhost:8080
