@@ -18,6 +18,6 @@ spring:
           enabled: true
       routes:
         - id: empleado-service
-          uri: https://localhost:8080
+          uri: http://localhost:8080
           predicates:
             - Path=/empleados/**
