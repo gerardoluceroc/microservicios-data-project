@@ -20,4 +20,4 @@ spring:
         - id: empleado-service
           uri: http://localhost:8080
           predicates:
-            - Path=/empleados/**
+            - Path=/empleado/**
