@@ -20,4 +20,8 @@ spring:
         - id: empleado-service
           uri: http://localhost:8080
           predicates:
-            - Path=/empleado/**
+            - Path=/empleado/** 
+        - id: hora-extra-service
+          uri: http://localhost:8084
+          predicates:
+            - Path=/hora-extra/** 
